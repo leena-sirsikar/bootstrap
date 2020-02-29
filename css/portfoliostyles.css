@@ -1,7 +1,15 @@
-#page-header-wraper {
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: "Open Sans", sans-serif; 
+    background-color: beige;
+}  
+
+#navBar {
     font-family: "Open Sans", sans-serif;
     color: #fff;
-    background-color: #173753;
+    background-color: black;
     margin: 0px;
     padding: 0px;
     border: 0px;
@@ -11,11 +19,49 @@
     padding: 0px;
     margin: 0px;
     border: 0px;
-    width: 100%;
-    
+    width: auto;
+    height: auto;
+    position: relative;
+    text-align: center;
+    color:black;
+    font-family: "Lobser", cursive;
+    font-size: 200%;
 }
 
-#abountme {
+.centered {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+#aboutme {
+    /* font-family: "Lobser", cursive; */
+    height: 200%; 
+    /* background-color: rgba(255,0,0,0.1); */
+    /* padding: 0px;
+    margin: 0px;
+    border: 0px; */
+    /* display: ; */
+}
+
+.card {
+    height: 200%;
+    width: auto;
+    display: flex;
+    float: none;
+    margin: 0 auto;
+}
+
+h2 {
     font-family: "Lobser", cursive;
-    
+}
+
+#email, #resume, #linkedin {
+    width: 100px;
+    height: 100px;
+}
+
+#hobbieCarousel {
+    height: 500px;
 }
