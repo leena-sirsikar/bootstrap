@@ -18,7 +18,7 @@ jobs:
       - name: Copy Markdown Files 📋
         run: |
           mkdir build
-          cp *.md build
+          cp *.html build
         
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.6.1
